@@ -22,7 +22,7 @@ Codex still does the final reasoning, coding, and user-facing synthesis. The sid
 
 The default models are:
 
-- Gemini: `gemini-2.5-pro`
+- Gemini: `gemini-2.5-flash`
 - Claude: `claude-sonnet-4-20250514`
 
 You can override them with `GEMINI_MODEL` and `CLAUDE_MODEL`.
