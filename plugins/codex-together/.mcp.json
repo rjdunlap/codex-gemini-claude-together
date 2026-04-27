@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "codex-together": {
+      "command": "node",
+      "args": [
+        "./scripts/codex_together_mcp.mjs"
+      ]
+    }
+  }
+}

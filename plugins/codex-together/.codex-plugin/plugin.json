@@ -1,0 +1,40 @@
+{
+  "name": "codex-together",
+  "version": "0.1.0",
+  "description": "Use Gemini and Claude as optional sidecars for Codex research, summarization, critique, and review.",
+  "author": {
+    "name": "rjdunlap",
+    "email": "",
+    "url": "https://github.com/rjdunlap"
+  },
+  "homepage": "https://github.com/rjdunlap/codex-gemini-claude-together",
+  "repository": "https://github.com/rjdunlap/codex-gemini-claude-together",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "gemini",
+    "claude",
+    "mcp",
+    "research"
+  ],
+  "skills": "./skills/",
+  "mcp": "./.mcp.json",
+  "interface": {
+    "displayName": "Codex Together",
+    "shortDescription": "Delegate research and review to Gemini and Claude",
+    "longDescription": "Adds local MCP tools that let Codex call Gemini for search-grounded research and Claude for critique, review, and summarization when API keys are configured.",
+    "developerName": "rjdunlap",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://github.com/rjdunlap/codex-gemini-claude-together",
+    "privacyPolicyURL": "https://github.com/rjdunlap/codex-gemini-claude-together",
+    "termsOfServiceURL": "https://github.com/rjdunlap/codex-gemini-claude-together",
+    "defaultPrompt": [
+      "Use Gemini for search-grounded research and Claude for concise critique when it can reduce Codex token usage."
+    ],
+    "screenshots": [],
+    "brandColor": "#4285F4"
+  }
+}
